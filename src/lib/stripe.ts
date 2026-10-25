@@ -7,7 +7,7 @@ if (!stripeSecretKey) {
 }
 
 export const stripe = new Stripe(stripeSecretKey, {
-  apiVersion: "2025-02-24.acacia" as Stripe.LatestApiVersion,
+  apiVersion: "2026-09-30.endive" as Stripe.LatestApiVersion,
   appInfo: {
     name: "Vantage Charity Golf",
     version: "0.1.0",
